@@ -81,8 +81,8 @@ li a:hover {
 .meal img {
     max-width: 100%;
     display: block;
-    height :500px;
-    width :100%
+    height :450px;
+    width :100%;
     z-index:2;
 }
 .nav-slide img{
@@ -144,7 +144,7 @@ body{
     font-size: 17px;
     line-height: 1.47em;
     font-family: 'Open Sans', serif;
-    /*width:100%;*/
+    width:100%;
     min-width: 320px;
     background: transparent;
     background-position: top center;
@@ -182,6 +182,7 @@ body{
     opacity: 0;
     transition: all .3s cubic-bezier(0.55, 0.06, 0.68, 0.19);
 }
+
 .meals.slick-current .meal-info p{
     transition: .6s cubic-bezier(0.22, 0.61, 0.36, 1) .4s;
     transform: translateX(0);
@@ -200,7 +201,8 @@ body{
 
 .slick-prev:before,
 .slick-next:before {
-    color: black;
+    color: red;
+    z-index:10;
 }
 .slider {
     background: transparent;
@@ -217,12 +219,12 @@ body{
     overflow: hidden;
 }
 .fbfslider-nav{
-    max-width: 800px;
+    max-width: 100%;
     position: absolute;
     z-index: 1;
     margin-right:-10px;
     padding-bottom: 53px;
-    float:right;
+   /* float:right;*/
 }
 .fbreakfast-container {
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
@@ -239,12 +241,12 @@ body{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
 }
 .flanddslider-nav{
-    max-width: 800px;
+    max-width: 100%;
     position: absolute;
     z-index: 1;
     margin-right:-10px;
     padding-bottom: 53px;
-    float:right;
+
 }
 
 
