@@ -1,8 +1,8 @@
 header{
-    background-color : #333333;
-    padding: 20px;
+    background : rgba(19,18,19,0.6);
+    padding: 15px;
     min-height:50px;
-    position: absolute;
+    position: Fixed;
     top: 0;
     width:100%;
     min-height:50px;
@@ -28,7 +28,7 @@ li a:hover {
 }
 .menu {
     overflow: hidden;
-    background-color: #333;
+    background : inherit;
 }
 .menu a {
     float: left;
@@ -146,11 +146,14 @@ body{
     font-family: 'Open Sans', serif;
     width:100%;
     min-width: 320px;
-    background: transparent;
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url("background.jpg");
+    /*background-size: cover;
+    background-repeat: no-repeat;*/
     min-height: 100vh;
+}
+.heading{
+    font-size: 50px;
+    text-align: center;
 }
 
 /*trial*/
@@ -161,8 +164,11 @@ body{
     color: #fff;
     bottom: 100px;
     padding-bottom: 53px;
+    padding-left: 10px;
+    padding-right: 10px;
     max-height: 400px;
     float:left;
+    border-radius: 50px 20px;
 }
 .meal-info:before{
     content: '';
@@ -173,6 +179,8 @@ body{
     height:100%;
     background: rgba(0, 0, 0, 0.6);
     z-index: -1;
+    border-radius: 50px 20px;
+
 }
 .meal-info p{
     font-size: 20px;
@@ -260,7 +268,178 @@ body{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
 }
 .fdesertslider-nav{
-    max-width: 800px;
+    max-width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-right:-10px;
+    padding-bottom: 53px;
+    float:right;
+}
+
+/* Italian menu css */
+.iBreakfast {
+    background: transparent;
+    width:100%;
+    position: relative;
+    overflow: hidden;
+}
+.ibfslider-nav{
+    max-width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-right:-10px;
+    padding-bottom: 53px;
+    /* float:right;*/
+}
+.ibreakfast-container {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+}
+
+
+.ilandd {
+    background: transparent;
+    width:100%;
+    position: relative;
+    overflow: hidden;
+}
+.ilandd-container {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+}
+.ilanddslider-nav{
+    max-width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-right:-10px;
+    padding-bottom: 53px;
+
+}
+
+
+.idesert {
+    background: transparent;
+    width:100%;
+    position: relative;
+    overflow: hidden;
+}
+.idesert-container {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+}
+.idesertslider-nav{
+    max-width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-right:-10px;
+    padding-bottom: 53px;
+    float:right;
+}
+
+/* Indian menu css */
+.inBreakfast {
+    background: transparent;
+    width:100%;
+    position: relative;
+    overflow: hidden;
+}
+.inbfslider-nav{
+    max-width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-right:-10px;
+    padding-bottom: 53px;
+    /* float:right;*/
+}
+.inbreakfast-container {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+}
+
+
+.inlandd {
+    background: transparent;
+    width:100%;
+    position: relative;
+    overflow: hidden;
+}
+.inlandd-container {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+}
+.inlanddslider-nav{
+    max-width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-right:-10px;
+    padding-bottom: 53px;
+
+}
+
+
+.indesert {
+    background: transparent;
+    width:100%;
+    position: relative;
+    overflow: hidden;
+}
+.indesert-container {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+}
+.indesertslider-nav{
+    max-width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-right:-10px;
+    padding-bottom: 53px;
+    float:right;
+}
+
+/* Japanese menu css */
+.jBreakfast {
+    background: transparent;
+    width:100%;
+    position: relative;
+    overflow: hidden;
+}
+.jbfslider-nav{
+    max-width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-right:-10px;
+    padding-bottom: 53px;
+    /* float:right;*/
+}
+.jbreakfast-container {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+}
+
+
+.jlandd {
+    background: transparent;
+    width:100%;
+    position: relative;
+    overflow: hidden;
+}
+.jlandd-container {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+}
+.jlanddslider-nav{
+    max-width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-right:-10px;
+    padding-bottom: 53px;
+
+}
+
+
+.jdesert {
+    background: transparent;
+    width:100%;
+    position: relative;
+    overflow: hidden;
+}
+.jdesert-container {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+}
+.jdesertslider-nav{
+    max-width: 100%;
     position: absolute;
     z-index: 1;
     margin-right:-10px;
