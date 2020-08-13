@@ -277,7 +277,7 @@ body{
     z-index: 1;
     margin-right:-10px;
     padding-bottom: 53px;
-    float:right;
+
 }
 
 /* Italian menu css */
@@ -334,7 +334,6 @@ body{
     z-index: 1;
     margin-right:-10px;
     padding-bottom: 53px;
-    float:right;
 }
 
 /* Indian menu css */
@@ -391,7 +390,6 @@ body{
     z-index: 1;
     margin-right:-10px;
     padding-bottom: 53px;
-    float:right;
 }
 
 /* Japanese menu css */
@@ -448,5 +446,4 @@ body{
     z-index: 1;
     margin-right:-10px;
     padding-bottom: 53px;
-    float:right;
 }
