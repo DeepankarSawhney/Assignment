@@ -116,5 +116,5 @@ function totalAmount(){
 				  + (a5*125) + (b5*140) + (c5*160) + (d5*130) + (e5*175) + (f5*170) + (g5*220) + (h5*265) + (i5*185) + (j5*150) + (k5*245) + (l5*230) + (m5*165) + (n5*210) + (o5*285) + (p5*75) + (q5*90) + (r5*140) + (s5*155) + (t5*120);
 				  
 	document.getElementById("ta").innerHTML = "Your total Bill is Rs. " + tamount;
-	localStorage.setItem("bill","tamount");
+	localStorage.setItem("bill",tamount.toString());
 }
