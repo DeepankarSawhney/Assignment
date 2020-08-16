@@ -52,7 +52,7 @@ function validateAddress()
 function enterAmount()
 {
     var name=localStorage.getItem("bill");
-	document.getElementById("amount").innerHTML = name;
+	document.getElementById("amount").innerHTML ="Rs. " + name;
 }
 function validateCard()
 {
@@ -99,7 +99,7 @@ function myPay(){
 	var re5 = /^(?=.*\d)&(?=.*[a-z])|(?=.*[A-Z]).{7,30}$/;
 	if(re1.test(yName)&&re2.test(phoneNumber)&&re5.test(ad)){
        window.alert("Congratulations!!! your transaction is Succesful");
-	   document.getElementById("link").href="payimg.png";
+	   document.getElementById("link").href="img/payimg.png";
 	}
 	else if(re1.test(yName)&&re2.test(phoneNumber)){
 	   document.getElementById("addPrompt").style.color = "red";
@@ -173,7 +173,6 @@ left:20px;
 }
 a{
 text-decoration:none;
-color:green;
 }
 input[type="radio"]:checked+label{
 color:#6F00DC;
@@ -242,7 +241,11 @@ top:-5px;
 </div>
 </b>
 
-<button onclick="myPay();"><a id="link">PAY</a></button>
+<button onclick="myPay();" style="background-color : #31B0D5;
+    color: ghostwhite;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #46b8da;"><a id="link">PAY</a></button>
 </form>
 </div>
 </body>
